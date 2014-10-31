@@ -1,0 +1,8 @@
+{
+    "name"        : "allofu",
+    "version"     : "0.0.1",
+    "description" : "Ghost theme",
+    "author"      : "alim0x",
+    "homepage"    : "https://github.com/alim0x/allofu",
+	"license"     : "The MIT License"
+}
