@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     <link rel="stylesheet" type="text/css" href="{{asset "/css/allofu.css"}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset "/css/gfonts.css"}}" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{asset "#"}}" />  -->
     <link rel="stylesheet" href="{{asset "/font-awesome/css/font-awesome.min.css"}}">
 
     {{{block "head"}}}
@@ -34,7 +34,8 @@
     {{{body}}}
 
     <footer class="site-footer clearfix">
-        <section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. CC BY-NC-SA 4.0. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>. Based on <a href="https://github.com/kathyqian/crisp-ghost-theme" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
+        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{data format="YYYY"}}</section>
+        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
     </footer>
 
     {{ghost_foot}}
