@@ -21,6 +21,20 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 * Change the link and follow-icon color on *line 88 and line 158* in **allofu/assets/css/allofu.css**
 * Add code for Google Analytics in **allofu/default.hbs** after `{{ghost_foot}}`
 * Add your favicon to **allofu/assets**
+* Setting your code highlight theme in **allofu/default.hbs line 21**, css file in **allofu/assets/highlight**
+
+###Use code highlight
+    <pre class="prettyprint">
+
+        your code
+
+    </pre>`
+Turn to [google-code-prettify wiki](https://code.google.com/p/google-code-prettify/wiki/GettingStarted) for more information.
+
+###Changelog
+**ver 0.0.2  &mdash; Nov 2, 2014**
+ * add code highlight support (google-code-prettify)
+ * doxy theme by default
 
 **ver 0.0.1  &mdash; Nov 2, 2014**
 

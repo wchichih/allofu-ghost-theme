@@ -18,11 +18,14 @@
     <link rel="stylesheet" type="text/css" href="{{asset "/css/gfonts.css"}}" />
     <link rel="stylesheet" href="{{asset "/font-awesome/css/font-awesome.min.css"}}">
 
+    <link rel="stylesheet" type="text/css" href="{{asset "/highlight/doxy.css"}}" />
+    <script type="text/javascript" src="{{asset "/highlight/prettify.js"}}"></script>
+
     {{{block "head"}}}
     {{ghost_head}}
 </head>
 
-<body class="{{body_class}}">
+<body class="{{body_class}}" onload="prettyPrint()">
         <header id="header">
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
