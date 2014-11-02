@@ -1,6 +1,6 @@
 #Allofu
 
-This theme based on [crisp](http://ghost.org" target="_blank">Ghost</a>. Based on <a href="https://github.com/kathyqian/crisp-ghost-theme) theme by [Kathy Qian](http://kathyqian.com).
+This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) theme by [Kathy Qian](http://kathyqian.com).
 
 ### License
 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)<br/>
