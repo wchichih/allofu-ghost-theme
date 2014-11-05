@@ -9,6 +9,8 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 ###Demo
 [Here](https://memo.ink).
 
+![](http://postimg.org/image/lhdo134fd/)
+
 ###Required Steps for Installation
 1. Download the files
 2. Manually add/remove all links to static pages by copying (or deleting) the code in **allofu/partials/navigation.hbs**
@@ -18,7 +20,7 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 6. Select the theme in the settings page of your Ghost admin panel
 
 ###Customizations
-* Change the link and follow-icon color on *line 88 and line 158* in **allofu/assets/css/allofu.css**
+* Change the link, follow-icon and tag color on *line 88, line 158 and line 198* in **allofu/assets/css/allofu.css**
 * Add code for Google Analytics in **allofu/default.hbs** after `{{ghost_foot}}`
 * Add your favicon to **allofu/assets**
 * Setting your code highlight theme in **allofu/default.hbs line 21**, css file in **allofu/assets/highlight**
@@ -28,7 +30,7 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 
         your code
 
-    </pre>`
+    </pre>
 Turn to [google-code-prettify wiki](https://code.google.com/p/google-code-prettify/wiki/GettingStarted) for more information.
 
 ###Changelog
