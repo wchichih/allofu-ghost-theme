@@ -9,7 +9,7 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 ###Demo
 [Here](https://memo.ink).
 
-![](http://s12.postimg.org/6y6izobaj/allofu.png)
+![](http://i60.tinypic.com/10oh0n6.png)
 
 ###Required Steps for Installation
 1. Download the files
