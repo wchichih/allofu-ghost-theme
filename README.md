@@ -1,4 +1,4 @@
-#Allofu
+#Allofu [![Build Status](https://travis-ci.org/alim0x/allofu-ghost-theme.svg)](https://travis-ci.org/alim0x/allofu-ghost-theme)
 
 This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) theme by [Kathy Qian](http://kathyqian.com).
 
