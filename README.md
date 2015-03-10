@@ -14,13 +14,13 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 ###Required Steps for Installation
 1. Download the files
 2. Manually add/remove all links to static pages by copying (or deleting) the code in **allofu/partials/navigation.hbs**
-3. Add your comments service in **allofu/post.hbs**
+3. Add your comments service in **allofu/partials/comments.hbs**
 4. Configure the follow buttons in **allofu/partials/follow.hbs**
-5. Add the "allofu" folder to the **content/themes** directory of your Ghost installation
+5. Add the "allofu-ghost-theme" folder to the **content/themes** directory of your Ghost installation
 6. Select the theme in the settings page of your Ghost admin panel
 
 ###Customizations
-* Change the link, follow-icon and tag color on *line 88, line 158 and line 198* in **allofu/assets/css/allofu.css**
+* Change the link, follow-icon and tag color on *line 89, line 160 and line 200* in **allofu/assets/css/allofu.css**
 * Add code for Google Analytics in **allofu/default.hbs** after `{{ghost_foot}}`
 * Add your favicon "fav.ico" to **allofu/assets**
 * Setting your code highlight theme in **allofu/default.hbs line 21**, css file in **allofu/assets/highlight**
