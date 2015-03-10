@@ -23,8 +23,7 @@
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{asset "/highlight/doxy.css"}}" />
-    <script type="text/javascript" src="{{asset "/highlight/prettify.js"}}"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
             <!--[if lt IE 9]>
@@ -35,7 +34,7 @@
     {{ghost_head}}
 </head>
 
-<body class="{{body_class}}" onload="prettyPrint()">
+<body class="{{body_class}}">
         <header id="header">
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
@@ -53,6 +52,8 @@
     {{ghost_foot}}
 
     <!-- javascript -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 <!-- replace with your GoogleAnalytics
     <script>

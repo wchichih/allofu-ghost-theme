@@ -23,19 +23,21 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 * Change the link, follow-icon and tag color on *line 89, line 160 and line 200* in **allofu/assets/css/allofu.css**
 * Add code for Google Analytics in **allofu/default.hbs** after `{{ghost_foot}}`
 * Add your favicon "fav.ico" to **allofu/assets**
-* Setting your code highlight theme in **allofu/default.hbs line 21**, css file in **allofu/assets/highlight**
+* Setting your code highlight theme in **allofu/default.hbs line 26** (solarized_dark by default)
+  * For other available styles look into the highlight.js [styles directory](https://github.com/isagalaev/highlight.js/tree/master/src/styles) (and don't forget to add ".min" before ".css").
 
 ###Use code highlight
-    <pre class="prettyprint">
+    <pre><code>...</code></pre>
+or
 
-        your code
+    <pre><code class="html">...</code></pre>
 
-    </pre>
-Turn to [google-code-prettify wiki](https://code.google.com/p/google-code-prettify/wiki/GettingStarted) for more information.
+Turn to https://highlightjs.org/usage/ for more information.
 
 ###Changelog
 **ver 0.0.3  &mdash; Mar 10, 2015**
  * replace local fonts and font-awesome
+ * replace prettify.js with highlight.js for easier use
 
 **ver 0.0.2  &mdash; Nov 2, 2014**
  * add code highlight support (google-code-prettify)
