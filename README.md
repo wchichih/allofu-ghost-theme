@@ -22,7 +22,7 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 ###Customizations
 * Change the link, follow-icon and tag color on *line 88, line 158 and line 198* in **allofu/assets/css/allofu.css**
 * Add code for Google Analytics in **allofu/default.hbs** after `{{ghost_foot}}`
-* Add your favicon to **allofu/assets**
+* Add your favicon "fav.ico" to **allofu/assets**
 * Setting your code highlight theme in **allofu/default.hbs line 21**, css file in **allofu/assets/highlight**
 
 ###Use code highlight
