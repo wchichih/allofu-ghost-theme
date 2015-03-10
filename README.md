@@ -34,6 +34,9 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 Turn to [google-code-prettify wiki](https://code.google.com/p/google-code-prettify/wiki/GettingStarted) for more information.
 
 ###Changelog
+**ver 0.0.3  &mdash; Mar 10, 2015**
+ * replace local fonts and font-awesome
+
 **ver 0.0.2  &mdash; Nov 2, 2014**
  * add code highlight support (google-code-prettify)
  * doxy theme by default
