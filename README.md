@@ -15,19 +15,17 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 
 ###安装步骤
 1. 下载文件
-2. 通过复制（或删除）**allofu/partials/navigation.hbs** 中的代码，手动添加/移除所有静态页面链接
-3. 在 **allofu/partials/comments.hbs** 中添加你的评论服务
-4. 在 **allofu/partials/follow.hbs** 中设置你的个人信息链接图标
-5. 将 "allofu-ghost-theme" 文件夹添加到你的Ghost的 **content/themes** 文件夹中
-6. 从Ghost管理面板中选择主题
+2. 在 **allofu/partials/comments.hbs** 中添加你的评论服务
+3. 在 **allofu/partials/follow.hbs** 中设置你的个人信息链接图标
+4. 将 "allofu-ghost-theme" 文件夹添加到你的Ghost的 **content/themes** 文件夹中
+5. 从Ghost管理面板中选择主题
 
 ###Required Steps for Installation
 1. Download the files
-2. Manually add/remove all links to static pages by copying (or deleting) the code in **allofu/partials/navigation.hbs**
-3. Add your comments service in **allofu/partials/comments.hbs**
-4. Configure the follow buttons in **allofu/partials/follow.hbs**
-5. Add the "allofu-ghost-theme" folder to the **content/themes** directory of your Ghost installation
-6. Select the theme in the settings page of your Ghost admin panel
+2. Add your comments service in **allofu/partials/comments.hbs**
+3. Configure the follow buttons in **allofu/partials/follow.hbs**
+4. Add the "allofu-ghost-theme" folder to the **content/themes** directory of your Ghost installation
+5. Select the theme in the settings page of your Ghost admin panel
 
 ###自定义
 * 在 **allofu/assets/css/allofu.css** 中的 *第89行，第160行，第200行* 更改你的链接，个人信息链接图标以及文章标签的颜色
