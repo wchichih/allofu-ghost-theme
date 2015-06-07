@@ -8,9 +8,6 @@ This theme based on [crisp](https://github.com/kathyqian/crisp-ghost-theme) them
 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)<br/>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br/>
 
-###Demo
-[Click Here](https://memo.ink).
-
 ![](http://i60.tinypic.com/10oh0n6.png)
 
 ###安装步骤
