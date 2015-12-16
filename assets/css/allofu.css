@@ -8,7 +8,8 @@ html, body {
 	line-height: 1.65em;
 	font-family: "Open Sans","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
 	font-weight: 300;
-	color:#444;
+    background: #fff;
+    color: #444;
 	background: url(images/white_texture.png) repeat;
 	background-attachment: fixed;
 }
