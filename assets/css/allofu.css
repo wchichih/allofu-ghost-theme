@@ -112,9 +112,15 @@ ul, ol {
 	margin-left: 3em;
 }
 code {
-	font-size:1em;
-	background: #BABABA;
-	border-radius: 0.20em;
+    background: #f5f7f8;
+    padding: .2rem .3rem .1rem;
+    border: 1px solid #d8e0e4;
+    border-radius: 2px;
+    color: #0076E3;
+    vertical-align: middle;
+    white-space: pre-wrap;
+    font-size: .8em;
+    line-height: 1em;
 }
 pre {
 	font-size: 0.8em;
@@ -127,6 +133,8 @@ pre {
 	white-space: -moz-pre-wrap;
 	white-space: pre-wrap;
 	white-space: pre\9;
+    background: none;
+    padding: 0;
 }
 input {
 	font-size:1em;
@@ -159,6 +167,7 @@ header #logo img {
 }
 #follow-icons a {
 	color: #0076E3;
+    margin-inline-end: 1em;
 }
 #follow-icons span {
 	vertical-align:top;
