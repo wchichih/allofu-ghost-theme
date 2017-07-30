@@ -49,6 +49,9 @@ Turn to https://highlightjs.org/usage/ for more information.
 前往 https://highlightjs.org/usage/ 获取更多信息。
 
 ### Changelog
+**ver 0.0.4  &mdash; Jul 30, 2017**
+ * migrating to ghost 1.0
+
 **ver 0.0.3  &mdash; Mar 10, 2015**
  * replace local fonts and font-awesome
  * replace prettify.js with highlight.js for easier use
