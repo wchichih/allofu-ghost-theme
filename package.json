@@ -1,8 +1,15 @@
 {
     "name"        : "allofu",
-    "version"     : "0.0.3",
+    "version"     : "0.0.4",
     "description" : "Ghost theme",
-    "author"      : "alim0x",
-    "homepage"    : "https://github.com/alim0x/allofu",
-	"license"     : "CC BY-NC-SA 4.0"
+    "author": {
+        "name": "alim0x",
+        "email": "alim0x@outlook.com",
+        "url": "https://memo.ink"
+    },
+    "homepage"    : "https://github.com/alim0x/allofu-ghost-theme",
+    "license"     : "CC BY-NC-SA 4.0",
+    "config": {
+        "posts_per_page": 8
+    }
 }
